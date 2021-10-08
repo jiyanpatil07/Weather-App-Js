@@ -22,7 +22,7 @@ let weather = {
         document.querySelector(".description").innerText = description;
         document.querySelector(".temp").innerText = temp
         document.querySelector(".humadity").innerText = "Humidity " + humidity + "%"
-        document.querySelector(".wind").innerText = "wind spedd " + speed + "km/h"
+        document.querySelector(".wind").innerText = "Wind Speed " + speed + "km/h"
         document.querySelector(".loading").classList.remove("loading")
     },
     search: function () {
